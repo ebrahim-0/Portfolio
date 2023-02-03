@@ -1,0 +1,405 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+header {
+  margin: 50px 0;
+}
+.container {
+  width: 80% !important;
+}
+
+header .personal-info {
+  background-color: #ffffff;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 30px;
+}
+header .personal-info img {
+  width: 25%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+header .box {
+  padding: 0 20px;
+}
+header .box .title .name h1,
+header .box .title .name h2 {
+  padding: 0;
+  margin: 0;
+  color: #4f4f4f;
+  font-size: 20px;
+}
+
+header .box .title .name h2 {
+  color: #828282;
+  margin-top: 10px;
+}
+
+header .box .title .email::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+header .box .title .phone::before {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+header .des {
+  color: #828282;
+  font-size: 18px;
+}
+
+header .des p {
+  margin-top: 20px;
+}
+
+.mid {
+  gap: 20px;
+}
+.skills {
+  max-width: 415px;
+  width: 100%;
+}
+.skills .box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.skills .box .skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills .box .skill p {
+  margin: 15px 15px 10px 0;
+}
+
+.skills .box .progress {
+  width: 100%;
+  background-color: #c4c4c4;
+  height: 10px;
+  position: relative;
+}
+.skills .box .progress span {
+  background-color: #2f80ed;
+  height: 10px;
+  position: absolute;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.hobbies {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 415px;
+  width: 100%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.hobbies h3 {
+  color: #4f4f4f;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hobbies .box {
+  margin-top: 25px;
+}
+.hobbies .box img {
+  max-width: 370px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.right {
+  flex-direction: column;
+  gap: 35px;
+}
+.blog {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.blog-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-top--right img {
+  max-width: 359px;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.blog-span {
+  color: #e0e0e0;
+}
+h3-blog {
+  color: #4f4f4f;
+  font-size: 24px;
+  margin-bottom: 20px;
+  max-width: 136px;
+  line-height: 29px;
+}
+.blog-description {
+  font-weight: 500;
+  color: #828282;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.blog-link {
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #2f80ed;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.experiences {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.experiences .box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.experiences .box img {
+  width: 120px;
+  height: 84px;
+}
+
+.experiences .box .work {
+  color: #828282;
+  margin: 25px 0;
+}
+
+.experiences .box .work h2 {
+  color: #333333;
+}
+
+.experiences .box .work p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.projects .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.project h3 {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.project .list span {
+  margin: 0 15px;
+  border-radius: 12px;
+  border: 1px solid #333333;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.project .list span:hover {
+  background-color: #2f80ed;
+  color: white;
+  border-color: #2f80ed;
+}
+
+.card-projects {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.card-projects .card {
+  padding: 20px;
+  width: 350px;
+  border: 0;
+}
+
+.card-projects .card .tags {
+  display: flex;
+  gap: 10px;
+  margin: 24px 0 24px 0;
+}
+.card-projects .card .tags span {
+  color: #4f4f4f;
+}
+
+.card-projects .card .text {
+  max-width: 292px;
+}
+
+.card-projects .card .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.card-projects .card .buttons a {
+  padding: 15px 30px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.page-div {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  gap: 15px;
+}
+.page-div .page {
+  border: 1px solid #333333;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.page-div .page:hover {
+  background-color: #2f80ed;
+  color: white;
+  border-color: #2f80ed;
+}
+
+footer {
+  width: fit-content;
+  margin: 50px auto 10px;
+}
+@media (max-width: 1099px) {
+  .card-projects .card .tags {
+    font-size: 12px;
+  }
+  .card-projects .card .buttons a {
+    padding: 7px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  header .personal-info {
+    flex-direction: column;
+    max-width: 320px;
+  }
+  header .personal-info img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  header .personal-info .title {
+    flex-direction: column;
+  }
+  .mid {
+    flex-direction: column;
+  }
+  .left {
+    width: 100% !important;
+  }
+  .skills {
+    max-width: 320px;
+  }
+  .blog {
+    max-width: 320px;
+  }
+  .blog-description {
+    margin-top: 25px;
+  }
+  .experiences .box .work p {
+    font-size: 12px;
+  }
+  .experiences {
+    max-width: 320px;
+  }
+  .project .list span {
+    margin: 0 5px;
+  }
+  .card-projects {
+    flex-direction: column;
+  }
+  .card-projects .card {
+    max-width: 320px;
+  }
+  .page-div {
+    justify-content: center;
+    gap: 8px;
+  }
+}
